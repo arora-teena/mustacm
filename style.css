@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f9ff;
+  color: #033b6c;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0b5ed7, #4fc3f7);
+  color: white;
+}
+
+.logo {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.count {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 50px 10%;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0b5ed7;
+}
+
+/* TEAM IMAGE */
+.team-img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+}
+
+/* LOGIN */
+.login-box {
+  max-width: 450px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #0b5ed7;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #0b5ed7;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===============================
+   DASHBOARD & CARD HELPERS
+   =============================== */
+
+.page-center {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Small logo when needed */
+.logo.small {
+  width: 80px;
+}
+
+/* DASHBOARD */
+.card-btn {
+  background: linear-gradient(135deg, #0b5ed7, #4fc3f7);
+  border: none;
+  padding: 14px 22px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.member-info {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 320px;
+}
+
+/* MEMBERSHIP CARD */
+.membership-card {
+  width: 320px;
+  background: linear-gradient(135deg, #0b5ed7, #4fc3f7);
+  color: white;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.card-details {
+  background: rgba(255,255,255,0.15);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 15px;
+}

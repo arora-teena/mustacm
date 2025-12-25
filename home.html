@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin(); loadMemberInfo();">
+
+<nav class="navbar">
+  <h3>ACM-W Dashboard</h3>
+  <button onclick="logout()">Logout</button>
+</nav>
+
+<div class="page-center">
+
+  <button class="card-btn" onclick="location.href='membership-card.html'">
+    🎫 Membership Card
+  </button>
+
+  <div class="member-info">
+  <p><b>Name:</b> <span id="showName"></span></p>
+  <p><b>User ID:</b> <span id="showUserId"></span></p>
+  <p><b>Membership ID:</b> <span id="showMembershipId"></span></p>
+</div>
+
+
+  <div class="button-group">
+
+  <button type="button" onclick="window.location.href='kit.html'">
+    Registration Kit
+  </button>
+
+  <button type="button" onclick="window.location.href='roles.html'">
+    Know Your Role & Responsibilities
+  </button>
+
+  <button type="button" onclick="window.location.href='terms.html'">
+    Terms & Conditions
+  </button>
+
+</div>
+
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACM-W Student Chapter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h2>ACM-W</h2>
+  <img src="assets/logo.png" class="logo" alt="ACM-W Logo">
+  
+  <h1>Welcome to ACM-W Student Chapter</h1>
+  <p>Mody University of Science & Technology</p>
+  <div class="count">
+    Active Members: <span id="memberCount">0</span>
+  </div>
+</div>
+
+<!-- BECOME A MEMBER -->
+<div class="section">
+  <h2>Become a Member</h2>
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSeqblM5sYp6OKgo7PQBYhdFtjyjKW5jnNun8bvldQcVFssSwA/viewform"
+    width="100%"
+    height="500"
+    frameborder="0">
+  </iframe>
+</div>
+
+<!-- TEAM IMAGE -->
+<div class="section">
+    <h2>Our Team</h2>
+  <img src="assets/team.jpeg" class="team-img" alt="ACM-W Team">
+</div>
+
+<!-- LOGIN -->
+<div class="section">
+  <h2>Member Login</h2>
+
+  
+
+  <div class="login-box">
+    <input type="text" id="userid" placeholder="User ID">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="error"></p>
+  </div>
+</div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

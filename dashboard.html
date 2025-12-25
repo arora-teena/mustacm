@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACM Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+
+  <nav class="navbar">
+    <h2>ACM Student Chapter – Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+  </nav>
+
+  <div class="dashboard">
+    <h3>Welcome, <span id="username"></span> 👋</h3>
+
+    <div class="cards">
+      <div class="card">📢 Announcements</div>
+      <div class="card">📅 Events</div>
+      <div class="card">📂 Resources</div>
+      <div class="card">👥 Team Members</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
